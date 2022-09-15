@@ -1,2 +1,17 @@
 # MLP_handmande_applied_to_MNIST
-MLP applied to mnist data set
+This project has the main objective to develop from scratch an mlp and apply it in MNIST data without built-in abstract function. Was used only the library **numpy** for N-Dimensions operation and **matplotlib** for a nice graphic visualization of the results  
+
+## Parameters
+The file **global_parameters.py** contains important values that will change the progress of the algorithm, they can be easilly changed  
+- rate: Rate learning of the network
+- istrain: If True, the network will train
+- istest: If True, the network will test
+- step_check: (Only for training) Check the progress each 'step_check' iterations
+- shape: Shape of the mlp
+- showloss: Display loss_figure in screen after the processing
+- savefig: Save the loss_figure
+
+
+## Dependencies
+- Matplotlib
+- Numpy
