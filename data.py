@@ -70,6 +70,9 @@ class IdxData:
               'dimensions: {3}\n'.format(ptype, magic, ndim, shape))
 
 def preprocess():
+    # -- Check Existence --
+    
+    
     # -- DATA -- 
     tds = time.process_time()
     dx = IdxData('raw_data/train-images-idx3-ubyte',
