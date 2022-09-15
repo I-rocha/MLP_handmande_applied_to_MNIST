@@ -15,3 +15,7 @@ The file **global_parameters.py** contains important values that will change the
 ## Dependencies
 - Matplotlib
 - Numpy
+
+
+## Loss figure example
+![loss-output](https://user-images.githubusercontent.com/38757175/190408095-1895569d-03c9-4d08-b794-e0718cabf34e.png)
